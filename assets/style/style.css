@@ -6,11 +6,40 @@ html,body{
     background: no-repeat rgb(253,253,253);
     background: linear-gradient(0deg, rgba(253,253,253,1) 0%, rgba(218,218,218,1) 0.2%, rgba(252,252,252,1) 50%, rgba(255,255,255,1) 100%);
 }
-#big-heading{
-    color:#309F5E;
-    font-weight: 800;
-    font-size:196px;
+
+
+@media only screen and (min-width:950px){
+    #big-heading{
+        color:#309F5E;
+        font-weight: 800;
+        font-size:196px;
+    }
 }
+
+@media screen and (max-width:950px) and (min-width:600px){
+    #big-heading{
+        color:#309F5E;
+        font-weight: 800;
+        font-size:130px;
+    }
+}
+
+@media screen and (max-width:600px) and (min-width:470px){
+    #big-heading{
+        color:#309F5E;
+        font-weight: 800;
+        font-size:100px;
+    }
+}
+@media screen and (max-width:470px) and (min-width:100px){
+    #big-heading{
+        color:#309F5E;
+        font-weight: 800;
+        font-size:70px;
+    }
+}
+
+
 #about{
     font-family:'DM Sans', sans-serif;
     font-weight: 700;
